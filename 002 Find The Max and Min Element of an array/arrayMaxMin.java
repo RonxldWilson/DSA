@@ -26,7 +26,7 @@ public class arrayMaxMin {
         for(int i=0;i<n;i++){
             System.out.print(arr[i]);
         }
-
+        
         System.out.println("The Max Element is:"+max);
         System.out.println("The Min Element is:"+min);
     }
