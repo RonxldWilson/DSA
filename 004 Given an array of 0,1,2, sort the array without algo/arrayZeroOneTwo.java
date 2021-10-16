@@ -39,7 +39,6 @@ public class arrayZeroOneTwo{
         for(int i=0;i<two;i++){
             System.out.print("2");
         }
-        
-
+        sc.close();
     }
 }
