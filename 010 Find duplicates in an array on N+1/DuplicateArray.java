@@ -16,7 +16,15 @@ public class DuplicateArray {
         //printing of the array
         obj.printArray(arr,n);
         //Checking for duplicates in the array
-
+        int checker;
+        for(int i = 0; i < n; i++){
+            checker = arr[i];
+            for(int j =i+1;j<n;j++){
+                if(arr[j]==checker){
+                    System.out.println("The duplicate Element is :"+arr[j]);
+                }
+            }
+        }
         sc.close();
 }
     public void printArray(int arr[], int n){
